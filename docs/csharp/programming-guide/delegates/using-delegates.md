@@ -22,7 +22,7 @@ ms.lasthandoff: 11/21/2017
   
  [!code-csharp[csProgGuideDelegates#21](../../../csharp/programming-guide/delegates/codesnippet/CSharp/using-delegates_1.cs)]  
   
- 委托对象通常通过提供委托将封装的方法的名称或使用[匿名方法](../../../csharp/programming-guide/statements-expressions-operators/anonymous-methods.md)构造。 对委托进行实例化后，委托会将对其进行的方法调用传递到该方法。 调用方传递到委托的参数将传递到该方法，并且委托会将方法的返回值（如果有）返回到调用方。 这被称为调用委托。 实例化的委托可以按封装的方法本身进行调用。 例如：  
+ 委托对象通常通过提供委托将要封装的方法的名称或使用[匿名方法](../../../csharp/programming-guide/statements-expressions-operators/anonymous-methods.md)构造。 对委托进行实例化后，委托会将对其进行的方法调用传递到该方法。 调用方传递到委托的参数将传递到该方法，并且委托会将方法的返回值（如果有）返回到调用方。 这被称为调用委托。 实例化的委托可以按封装的方法本身进行调用。 例如：  
   
  [!code-csharp[csProgGuideDelegates#22](../../../csharp/programming-guide/delegates/codesnippet/CSharp/using-delegates_2.cs)]  
   
